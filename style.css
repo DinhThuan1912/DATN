@@ -1,0 +1,9 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#nhiet-do, #do-am {
+    font-size: 24px;
+    margin-top: 20px;
+}
