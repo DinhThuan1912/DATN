@@ -112,7 +112,7 @@
         <!-- == MONITORING ======================================================================================== -->
         <div class="card">
           <div class="card header">
-            <h3 style="font-size: 1rem;">MONITORING</h3>
+            <h3 style="font-size: 1rem;">Giám sát và điều khiển hệ thống</h3>
           </div>
           
           <!-- Displays the humidity and temperature values received from ESP32. *** -->
@@ -127,7 +127,14 @@
           <p class="gasColor"><span class="reading"><span id="ESP32_01_Gas"></span> ppm</span></p>
           <!-- *********************************************************************** -->
           
-          <p class="statusreadColor"><span>Status Read Sensor MQ2 : </span><span id="ESP32_01_Status_Read_DHT11"></span></p>
+          <p class="statusreadColor"><span>Đèn : </span><span id="ESP32_01_Status_Read_DHT11"></span></p>
+          
+          <!-- Toggle switch -->
+          <div class="switch">
+            <input type="checkbox" id="switchToggle">
+            <label class="sliderTS" for="switchToggle"></label>
+          </div>
+          
         </div>
         <script src="app.js"></script>
   </body>
